@@ -34,7 +34,7 @@ $x = 10;
 $y = 20;
 echo $x * $y;
 
-Penggabung String / Concatenation / concat
+Penggabung String / concatenation / concat
 .
 $nama_depan = "Harits";
 $nama_belakang = "Naufal";
