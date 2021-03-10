@@ -10,7 +10,7 @@ Mempelajari Sintaks PHP
 
 /*
 Pertemuan 2 - PHP Dasar
-Sintaks PHP
+Sintaxs PHP
 
 Standard Output
 echo, print
