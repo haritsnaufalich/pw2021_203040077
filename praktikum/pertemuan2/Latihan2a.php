@@ -2,7 +2,7 @@
 /*
 Harits Naufal Ichsan
 203040077
-
+https://github.com/haritsnaufalich/pw2021_203040077/tree/master/praktikum/pertemuan2
 Jum'at 10.00 - 11.00
 */
 ?>
@@ -12,7 +12,7 @@ Jum'at 10.00 - 11.00
     function gantiStyle($tulisan, $style1, $style2){ 
         return "<div class=\"$style1 $style2\">$tulisan</div>";
     }
-    
+
 ?>
 
 <!DOCTYPE html>
