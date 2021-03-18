@@ -122,7 +122,7 @@ $items = [
                             <td><?= $item["jumlahStok"]; ?></td>
                             <td>
                                 <figure>
-                                    <img src="img/<?= $item["foto"]; ?>" class="img-fluid " alt="">
+                                    <img src="img/<?= $item["foto"]; ?>" class="img-fluid" alt="">
                                 </figure>
                             </td>
                         </tr>
