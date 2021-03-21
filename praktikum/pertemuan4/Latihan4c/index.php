@@ -37,11 +37,11 @@ $items = query("SELECT * FROM converse");
             <thead>
                 <tr>
                     <th>No</th>
-                    <th>Foto</th>
-                    <th>Nama</th>
-                    <th>Warna</th>
-                    <th>Harga</th>
-                    <th>Stok</th>
+                    <th>Picture</th>
+                    <th>Name</th>
+                    <th>Color</th>
+                    <th>Price</th>
+                    <th>Stock</th>
                     <th>Detail</th>
                 </tr>
             </thead>
