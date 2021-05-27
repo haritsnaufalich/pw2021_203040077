@@ -1,7 +1,7 @@
 <?php
 
 function koneksi() {
-    $conn = mysqli_connect("localhost", "pw20777_tubes_203040077", "#Akun#203040077#", "pw20077_tubes_203040077");
+    $conn = mysqli_connect("localhost", "pw20077", "#Akun#203040077#", "pw20077_tubes_203040077");
     return $conn;
 }
 
