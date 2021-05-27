@@ -31,7 +31,7 @@
                                 <a href="kuliah" target="_blank">Open Here</a>
                             </p>
                             <p class="card-footer-item">
-                                <span>View On<a href="#" target="_blank"> GitHub</a></span>
+                                <span>View On<a href="https://github.com/haritsnaufalich/pw2021_203040077" target="_blank"> GitHub</a></span>
                             </p>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                                 <a href="praktikum" target="_blank">Open Here</a>
                             </p>
                             <p class="card-footer-item">
-                                <span>View On<a href="#" target="_blank"> GitHub</a></span>
+                                <span>View On<a href="https://github.com/haritsnaufalich/pw2021_203040077" target="_blank"> GitHub</a></span>
                             </p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                                 <a href="tubes" target="_blank">Open Here</a>
                             </p>
                             <p class="card-footer-item">
-                                <span>View On<a href="#" target="_blank"> GitHub</a></span>
+                                <span>View On<a href="https://github.com/haritsnaufalich/pw2021_203040077" target="_blank"> GitHub</a></span>
                             </p>
                         </div>
                     </div>
