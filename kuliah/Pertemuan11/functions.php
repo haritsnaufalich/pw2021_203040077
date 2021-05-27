@@ -8,7 +8,7 @@ Pertemuan 11 - 30 April 2021
 */
 
 function koneksi() {
-    return mysqli_connect('localhost', 'root', '', 'pw_203040077');
+    return mysqli_connect('localhost', 'pw20077', '#Akun#203040077#', 'pw20077_pw_203040077');
 }
 
 function query($query) {

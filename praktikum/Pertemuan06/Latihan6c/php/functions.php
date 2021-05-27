@@ -1,8 +1,8 @@
-<?php 
+<?php
 
 function koneksi() {
-    $conn = mysqli_connect("localhost", "root", "");
-    mysqli_select_db($conn, "pw_tubes_203040077");
+    $conn = mysqli_connect("localhost", "pw20777", "#Akun#203040077#");
+    mysqli_select_db($conn, "pw20077_tubes_203040077");
 
     return $conn;
 }
@@ -50,7 +50,7 @@ function editData($data) {
     $itemsStock = htmlspecialchars($data['itemsStock']);
 
     $query = "UPDATE converse SET itemsName = '$itemsName', itemsColor = '$itemsColor', itemsPrice = '$itemsPrice', itemsStock = '$itemsStock', itemsIMG = '$itemsIMG' WHERE id = '$id'";
-    
+
     mysqli_query($conn, $query);
     return mysqli_affected_rows($conn);
 }

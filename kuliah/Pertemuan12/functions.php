@@ -8,7 +8,7 @@ Pertemuan 12 - 7 Mei 2021
 */
 
 function koneksi() {
-    return mysqli_connect('localhost', 'root', '', 'pw_203040077');
+    return mysqli_connect('localhost', 'pw20077', '#Akun#203040077#', 'pw20077_pw_203040077');
 }
 
 function query($query) {
@@ -94,7 +94,7 @@ function login($data) {
         if(password_verify($password, $user['password'])) {
             // Set Session
             $_SESSION['login'] = true;
-        
+
             header("Location: index.php");
             exit;
         }
