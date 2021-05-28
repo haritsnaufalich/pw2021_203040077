@@ -30,7 +30,7 @@ function addData($data) {
         return false;
     }
 
-    $query = "INSERT INTO converse VALUES ('', '$itemsName', '$itemsColor', '$itemsPrice', '$itemsStock', '$img')";
+    $query = "INSERT INTO converse VALUES ('NULL', '$itemsName', '$itemsColor', '$itemsPrice', '$itemsStock', '$img')";
 
     mysqli_query($conn, $query);
     return mysqli_affected_rows($conn);
@@ -135,7 +135,7 @@ function signup($data) {
     }
     $password = password_hash($password, PASSWORD_DEFAULT);
 
-    $query = "INSERT INTO users VALUES('', '', '$username', '$password')";
+    $query = "INSERT INTO users VALUES('NULL', '', '$username', '$password')";
 
     mysqli_query($conn, $query);
     return mysqli_affected_rows($conn);
